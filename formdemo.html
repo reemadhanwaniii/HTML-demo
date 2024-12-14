@@ -1,0 +1,40 @@
+<!-- 
+    Html provides us mechanism to collect input from user and send it to backend where input can be processed and some relevant data 
+    can be shown
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        action attribute in the form specify url of ther server like where we have to send all these data
+     -->
+    <form action="">
+        <input type="text" placeholder="name" value="Reema Dhanwani" size="3px">
+        <input type="number" placeholder="age" min="20" max="50">
+        <input type="text" placeholder="address" disabled>
+        <input type="text" placeholder="intro" autofocus>
+        <input type="submit" value="click me!">
+        <input type="button" value="press me!!">
+        <!-- 
+            when i click submit button some movement happen in browser while which is not the case with normal button
+         -->
+    </form>
+</body>
+</html>
+<!-- 
+    Attributes of form tag
+    1. placeholder : gives us hint or temporary display value
+    2. value : custom predefined actual text
+    3. disabled : disbaled the tag where it is used
+    4. name : when we send data to server how server identifies and differentiate data which data is from which tag so we have name property
+              which specify whether the data belongs to first name or what etc.
+              In simple words,we can say that name gives us unique identifier.
+
+
+              Html level validations : min,max,maxlength,size,autofocus
+ -->
